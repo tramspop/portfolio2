@@ -1,0 +1,253 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    cursor: all-scroll;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background: black;
+
+
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+
+}
+
+@media (max-width:576px) {
+    .header-content {
+        flex-direction: column-reverse;
+    }
+
+    .header-content img {
+        margin-bottom: 2rem;
+    }
+
+    .i-design {
+        flex-wrap: wrap;
+    }
+
+    .i-design div {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .i-design div a {
+        margin-top: 3rem;
+    }
+
+    .what-i-do {
+        width: 100%;
+    }
+
+    .what-i-do-content {
+        flex-wrap: wrap;
+        border-left: none;
+        border-bottom: 1px solid rgb(180 180 180);
+    }
+
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+.nav-bar ul li a:hover {
+    color: dodgerblue;
+    text-decoration: overline;
+    border-top: 1px solid red;
+
+    /* padding-top: 3rem; */
+}
+
+.nav-bar h1 {
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes change {
+    0% {
+        color: goldenrod;
+    }
+
+    20% {
+        color: greenyellow;
+    }
+
+    40% {
+        color: purple;
+    }
+
+    60% {
+        color: deeppink;
+
+    }
+
+    80% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+.header-content img {
+    height: 500px;
+    width: 500px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.header-content .text {
+    margin-top: 4rem;
+}
+
+.about-me {
+    margin-top: 10rem;
+}
+
+.about-me h4 {
+    color: dodgerblue;
+    margin-top: 1rem;
+}
+
+.about-me b {
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.i-design {
+    display: flex;
+    margin-top: 5rem;
+
+
+
+}
+
+.i-design div {
+    width: 100%;
+}
+
+.i-design h2 {
+    color: dodgerblue;
+    font-size: 2rem;
+    font-weight: 500;
+    align-items: center;
+}
+
+.what-i-do {
+    margin: 8rem;
+    width: 40%;
+    margin-top: 5rem;
+}
+
+.what-i-do h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.what-i-do-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.web-development {
+    border-left: 1px solid rgb(180 180 180);
+    padding-left: 1rem;
+}
+
+.app-development {
+    border-left: 1px solid rgb(180 180 180);
+    padding-left: 1rem;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    margin-top: 5rem;
+
+}
+
+.contact-section .contact1 {
+    width: 50%;
+}
+
+.contact-section form {
+    width: 50%;
+}
+
+.contact1 h3 {
+    font-size: 3rem;
+}
+
+.contact-section input:focus {
+    border: 1px dotted rgb(180 180 180);
+    outline: none;
+}
+
+.portfolio-img {
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 5rem;
+}
+
+.portfolio {
+    margin-top: 3rem;
+}
+
+.social-media a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+}
+
+.social-media a:hover {
+    border: 1px dashed black;
+    box-sizing: border-box;
+    width: fit-content;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.social-media {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+}
+.i-design a:hover{
+    cursor: pointer;
+}
